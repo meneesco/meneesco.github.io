@@ -117,7 +117,7 @@
             background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.028'/%3E%3C/svg%3E");
         }
 
-        /* â”€â”€ HEADER â”€â”€ */
+        /* ── HEADER ── */
         header{
             position:fixed;top:0;left:0;width:100%;z-index:1000;
             background:rgba(242,234,213,0.93);
@@ -145,7 +145,7 @@
         .btn-nav::after{display:none !important;}
         .btn-nav:hover{background:var(--crimson-light) !important;transform:translateY(-1px);box-shadow:0 4px 14px rgba(140,27,27,0.3);}
 
-        /* â”€â”€ HERO â”€â”€ */
+        /* ── HERO ── */
         .hero{
             min-height:100vh;padding:110px 0 80px;
             display:flex;align-items:center;position:relative;overflow:hidden;
@@ -220,7 +220,7 @@
             opacity:0.05;color:#fff;line-height:1;
         }
 
-        /* â”€â”€ MANIFESTO BAR â”€â”€ */
+        /* ── MANIFESTO BAR ── */
         .manifesto{
             background:var(--ink);color:var(--cream);
             padding:56px 5%;text-align:center;position:relative;overflow:hidden;
@@ -230,7 +230,7 @@
         .mq em{color:var(--gold-light);font-style:normal;}
         .ma{margin-top:18px;font-family:var(--fm);font-size:0.65rem;letter-spacing:0.14em;text-transform:uppercase;color:rgba(242,234,213,0.35);}
 
-        /* â”€â”€ SECTION COMMONS â”€â”€ */
+        /* ── SECTION COMMONS ── */
         section{padding:var(--gap) 5%;}
         .sec-top{
             display:flex;align-items:flex-start;justify-content:space-between;
@@ -241,7 +241,7 @@
         .sec-title em{font-style:italic;color:var(--crimson);}
         .sec-desc{max-width:390px;font-size:0.93rem;color:var(--text-muted);line-height:1.72;}
 
-        /* â”€â”€ PILLARS â”€â”€ */
+        /* ── PILLARS ── */
         .pillar-row{
             display:grid;grid-template-columns:90px 1fr 1fr;gap:0 36px;
             padding:36px 0;border-bottom:1px solid var(--border);
@@ -258,7 +258,7 @@
         .p-tag{display:inline-flex;align-items:center;gap:5px;font-family:var(--fm);font-size:0.58rem;text-transform:uppercase;letter-spacing:0.11em;color:var(--crimson);margin-bottom:10px;}
         .p-body{font-size:0.88rem;color:var(--text-muted);padding-left:18px;line-height:1.7;}
 
-        /* â”€â”€ ACCREDITATION â”€â”€ */
+        /* ── ACCREDITATION ── */
         .accred-section{background:var(--cream-dark);position:relative;}
         .accred-section::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:var(--crimson);}
         .accred-inner{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;}
@@ -279,7 +279,7 @@
         .acc-pt-t{font-family:var(--fb);font-size:0.97rem;font-weight:600;color:var(--ink);margin-bottom:5px;}
         .acc-pt-d{font-size:0.83rem;color:var(--text-muted);line-height:1.6;}
 
-        /* â”€â”€ SIMULATOR â”€â”€ */
+        /* ── SIMULATOR ── */
         .sim-tabs{display:flex;margin-bottom:0;}
         .sim-tab{
             padding:11px 22px;font-family:var(--fm);font-size:0.67rem;text-transform:uppercase;
@@ -323,7 +323,7 @@
         .sim-doc.mistake .sim-metric span:last-child{color:var(--crimson);font-weight:600;}
         .sim-doc.protocol .sim-metric span:last-child{color:var(--blue-inst);font-weight:600;}
 
-        /* â”€â”€ BOOKS DETAIL â”€â”€ */
+        /* ── BOOKS DETAIL ── */
         .books-section{background:var(--cream-mid);}
         .books-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;}
         .bdc{padding:38px;background:var(--cream);border:1px solid var(--border);position:relative;}
@@ -337,10 +337,10 @@
         .bdc-title{font-family:var(--fd);font-size:1.8rem;font-weight:700;color:var(--ink);margin-bottom:28px;line-height:1.1;}
         .feat-list{list-style:none;display:flex;flex-direction:column;gap:14px;}
         .feat-item{display:grid;grid-template-columns:14px 1fr;gap:10px;font-size:0.86rem;color:var(--text-muted);line-height:1.52;}
-        .feat-item::before{content:'â€”';color:var(--crimson);font-weight:700;margin-top:1px;}
+        .feat-item::before{content:'—';color:var(--crimson);font-weight:700;margin-top:1px;}
         .feat-item strong{color:var(--ink);}
 
-        /* â”€â”€ BENEFITS / STATS â”€â”€ */
+        /* ── BENEFITS / STATS ── */
         .stats-row{display:grid;grid-template-columns:repeat(4,1fr);margin-bottom:56px;}
         .stat-item{padding:36px;border-right:1px solid var(--border);transition:var(--ease);}
         .stat-item:last-child{border-right:none;}
@@ -354,7 +354,7 @@
         .ben-title{font-weight:600;font-size:0.97rem;color:var(--ink);margin-bottom:5px;}
         .ben-desc{font-size:0.83rem;color:var(--text-muted);line-height:1.6;}
 
-        /* â”€â”€ CONTACT â”€â”€ */
+        /* ── CONTACT ── */
         .contact-section{background:var(--ink);color:var(--cream);padding:var(--gap) 5%;}
         .contact-section .sec-title{color:var(--cream);}
         .contact-section .sec-desc{color:rgba(242,234,213,0.5);}
@@ -384,7 +384,7 @@
         }
         .btn-sub:hover{background:var(--crimson-light);}
 
-        /* â”€â”€ SUCCESS â”€â”€ */
+        /* ── SUCCESS ── */
         .success-overlay{
             position:fixed;inset:0;background:rgba(24,16,10,0.87);z-index:2000;
             display:flex;align-items:center;justify-content:center;
@@ -401,7 +401,7 @@
         .stitle{font-family:var(--fd);font-size:1.9rem;font-weight:700;margin-bottom:14px;color:var(--ink);}
         .smsg{font-size:0.88rem;color:var(--text-muted);line-height:1.7;margin-bottom:30px;}
 
-        /* â”€â”€ FOOTER â”€â”€ */
+        /* ── FOOTER ── */
         footer{
             background:#100A04;color:rgba(242,234,213,0.35);padding:44px 5%;
             display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;
@@ -412,7 +412,7 @@
         .f-links a:hover{color:var(--gold-light);}
         .f-copy{font-size:0.72rem;text-align:right;}
 
-        /* â”€â”€ BACK TO TOP â”€â”€ */
+        /* ── BACK TO TOP ── */
         #btt{
             position:fixed;bottom:28px;right:28px;width:42px;height:42px;
             background:var(--crimson);color:#fff;border:none;cursor:pointer;
@@ -422,11 +422,11 @@
         #btt.show{opacity:1;visibility:visible;}
         #btt:hover{background:var(--crimson-light);transform:translateY(-3px);}
 
-        /* â”€â”€ SCROLL REVEALS â”€â”€ */
+        /* ── SCROLL REVEALS ── */
         .reveal{opacity:0;transform:translateY(22px);transition:opacity 0.65s ease,transform 0.65s ease;}
         .reveal.in{opacity:1;transform:none;}
 
-        /* â”€â”€ RESPONSIVE â”€â”€ */
+        /* ── RESPONSIVE ── */
         @media(max-width:1024px){
             .hero-inner{grid-template-columns:1fr;}
             .hero-text{padding-right:0;border-right:none;border-bottom:1px solid var(--border);padding-bottom:44px;}
@@ -507,7 +507,7 @@
                     <div class="bk-cover m1">
                         <div class="bk-spine"></div>
                         <div>
-                            <div class="bk-tag">Vol. I â€” Negoziazione</div>
+                            <div class="bk-tag">Vol. I — Negoziazione</div>
                             <div class="bk-title">MANUALE<br>MENEESCO</div>
                             <div class="bk-rule"></div>
                             <div class="bk-sub">Protocollo per Comuni<br>& Enti Pubblici</div>
@@ -519,7 +519,7 @@
                     <div class="bk-cover m2">
                         <div class="bk-spine"></div>
                         <div>
-                            <div class="bk-tag">Vol. II â€” Psicologia</div>
+                            <div class="bk-tag">Vol. II — Psicologia</div>
                             <div class="bk-title">HACKING<br>HATERS'<br>MIND</div>
                             <div class="bk-rule"></div>
                             <div class="bk-sub">De-escalation<br>Digitale Istituzionale</div>
@@ -540,14 +540,14 @@
 <!-- MANIFESTO -->
 <div class="manifesto">
     <div class="mq">"La reazione istintiva di un funzionario pubblico durante una crisi genera caos e contenziosi. <em>Meneesco sostituisce l'emotività con un algoritmo decisionale sequenziale.</em>"</div>
-    <div class="ma">â€” Principio Fondante del Metodo ME.NE.E.S.CO.</div>
+    <div class="ma">— Principio Fondante del Metodo ME.NE.E.S.CO.</div>
 </div>
 
 <!-- LE 5 CHIAVI -->
 <section id="pilastri">
     <div class="sec-top reveal">
         <div>
-            <div class="sec-num">Â§ 01</div>
+            <div class="sec-num">§ 01</div>
             <h2 class="sec-title">I Cinque Principi<br><em>Operativi</em></h2>
         </div>
         <p class="sec-desc">Cinque assiomi che traducono la complessità della comunicazione di crisi in uno strumento di posizionamento istituzionale insostituibile per Comuni e Regioni.</p>
@@ -556,7 +556,7 @@
     <div class="pillar-row reveal">
         <div class="p-num">I</div>
         <div class="p-quote">
-            <div class="p-tag">â†— Autorevolezza</div>
+            <div class="p-tag">↗ Autorevolezza</div>
             "Dalla reattività  all'autorevolezza: governare il dissenso pubblico con la certezza di un protocollo."
         </div>
         <div class="p-body">La reazione istintiva di un funzionario pubblico durante una crisi genera caos e contenziosi legali. Meneesco sostituisce l'emotività con un algoritmo decisionale e sequenziale, salvaguardando il ruolo dell'ente e il patto sociale con il territorio.</div>
@@ -565,7 +565,7 @@
     <div class="pillar-row reveal">
         <div class="p-num">II</div>
         <div class="p-quote">
-            <div class="p-tag">â†— Difesa Digitale</div>
+            <div class="p-tag">↗ Difesa Digitale</div>
             "La prima difesa contro il panico digitale: disinnescare la crisi prima che diventi emergenza sistemica."
         </div>
         <div class="p-body">L'odio online si diffonde con velocità geometrica. "Hacking Haters' Mind" fornisce le contromisure psicologiche ed algoritmiche per raffreddare i toni in tempo reale, spegnendo la scintilla prima che la crisi esonda nella realtà fisica.</div>
@@ -574,7 +574,7 @@
     <div class="pillar-row reveal">
         <div class="p-num">III</div>
         <div class="p-quote">
-            <div class="p-tag">â†— Reputazione</div>
+            <div class="p-tag">↗ Reputazione</div>
             "Proteggere la reputazione delle Istituzioni: trasformare l'ostilità del cittadino in dialogo costruttivo."
         </div>
         <div class="p-body">Un cittadino ostile non è solo un pericolo, ma un'opportunità di trasparenza. Attraverso tecniche di de-escalation cognitiva derivate dai migliori modelli internazionali, il metodo riconverte la rabbia sociale in partecipazione civica e fiducia d'Ente.</div>
@@ -583,7 +583,7 @@
     <div class="pillar-row reveal">
         <div class="p-num">IV</div>
         <div class="p-quote">
-            <div class="p-tag">â†— Formazione d'elite</div>
+            <div class="p-tag">↗ Formazione d'elite</div>
             "Nessuna improvvisazione, massimo controllo: formare dirigenti pubblici con tecniche di negoziazione d'elite."
         </div>
         <div class="p-body">Gli errori di comunicazione costano milioni in reputazione, cause civili e tensioni di piazza. Trasferire competenze di negoziazione d'elite ai vertici amministrativi significa corazzare l'ente contro qualsiasi tempesta comunicativa o amministrativa.</div>
@@ -592,7 +592,7 @@
     <div class="pillar-row reveal">
         <div class="p-num">V</div>
         <div class="p-quote">
-            <div class="p-tag">â†— Patto Sociale</div>
+            <div class="p-tag">↗ Patto Sociale</div>
             "Trasparenza che rassicura: ripristinare la fiducia tra amministrazione e comunità nei momenti di massima tensione."
         </div>
         <div class="p-body">Nelle situazioni di crisi il silenzio alimenta il sospetto e la smentita accelera la rabbia. Meneesco codifica il flusso esatto delle informazioni per mantenere solido il patto sociale con il territorio in ogni scenario di emergenza.</div>
@@ -603,7 +603,7 @@
 <section id="accreditamento" class="accred-section">
     <div class="sec-top reveal">
         <div>
-            <div class="sec-num">Â§ 02</div>
+            <div class="sec-num">§ 02</div>
             <h2 class="sec-title">Ricerca &amp;<br><em>Validazione Scientifica</em></h2>
         </div>
         <p class="sec-desc">ME.NE.E.S.CO. ha strutturato il proprio <strong>protocollo di de-escalation per enti pubblici</strong> in cooperazione con il Dipartimento di Negoziazione dell'Università Unipolos, codificando la <strong>negoziazione istituzionale</strong> per Comuni e Regioni. Non formazione empirica: scienza applicata.</p>
@@ -611,7 +611,7 @@
     <div class="accred-inner">
         <div>
             <div class="pull-q reveal">"Lavoriamo per favorire una maggiore <strong>ecologia nelle interazioni umane</strong> all'interno di gruppi eterogenei, nelle aziende e nelle istituzioni pubbliche in situazioni di crisi ed emergenza."</div>
-            <div class="pull-auth reveal">â€” Principio di Ricerca, ME.NE.E.S.CO.</div>
+            <div class="pull-auth reveal">— Principio di Ricerca, ME.NE.E.S.CO.</div>
             <div class="partners reveal">
                 <div>
                     <div class="partner-tag">Collaborazione Accademica</div>
@@ -659,7 +659,7 @@
 <section id="simulatore">
     <div class="sec-top reveal">
         <div>
-            <div class="sec-num">Â§ 03</div>
+            <div class="sec-num">§ 03</div>
             <h2 class="sec-title">Simulatore di<br><em>Comunicazione di Crisi</em></h2>
         </div>
         <p class="sec-desc">Esempi di <strong>comunicazione istituzionale in emergenza</strong>: seleziona uno scenario frequente in un'Amministrazione Comunale e osserva la differenza drammatica tra la reazione spontanea e la soluzione scientifica codificata dal Metodo Meneesco.</p>
@@ -680,14 +680,14 @@
 <section id="manuali" class="books-section">
     <div class="sec-top reveal">
         <div>
-            <div class="sec-num">Â§ 04</div>
+            <div class="sec-num">§ 04</div>
             <h2 class="sec-title">Struttura dei<br><em>Manuali Operativi</em></h2>
         </div>
         <p class="sec-desc">Un'opera in due volumi complementari: dalla <strong>negoziazione istituzionale</strong> alla <strong>gestione dei social media del Comune</strong>. Il sistema formativo completo per dirigenti che non possono permettersi di improvvisare.</p>
     </div>
     <div class="books-grid">
         <div class="bdc v1 reveal">
-            <div class="bvol-tag">Volume I â€” Metodo di Negoziazione</div>
+            <div class="bvol-tag">Volume I — Metodo di Negoziazione</div>
             <h3 class="bdc-title">Manuale Meneesco</h3>
             <ul class="feat-list">
                 <li class="feat-item"><span><strong>Protocollo delle 7 Fasi</strong>: Il percorso decisionale per la risoluzione dei conflitti amministrativi e di piazza.</span></li>
@@ -697,7 +697,7 @@
             </ul>
         </div>
         <div class="bdc v2 reveal">
-            <div class="bvol-tag">Volume II â€” Psicologia Digitale</div>
+            <div class="bvol-tag">Volume II — Psicologia Digitale</div>
             <h3 class="bdc-title">Hacking Haters' Mind</h3>
             <ul class="feat-list">
                 <li class="feat-item"><span><strong>Anatomia dell'Odio Online</strong>: Analisi psicologica dei pattern di aggressione e manipolazione della verità sui social.</span></li>
@@ -713,7 +713,7 @@
 <section id="consulenze">
     <div class="sec-top reveal">
         <div>
-            <div class="sec-num">Â§ 05</div>
+            <div class="sec-num">§ 05</div>
             <h2 class="sec-title">Oltre i Manuali:<br><em>La Consulenza Strategica</em></h2>
         </div>
         <p class="sec-desc">Strumenti avanzati e metodologie d'elite integrati nelle attività di consulenza strategica, affiancamento e <strong>gestione dei social media istituzionali</strong> per la Pubblica Amministrazione.</p>
@@ -758,7 +758,7 @@
 <section id="vantaggi">
     <div class="sec-top reveal">
         <div>
-            <div class="sec-num">Â§ 06</div>
+            <div class="sec-num">§ 06</div>
             <h2 class="sec-title">Perché la P.A.<br><em>Adotta Meneesco</em></h2>
         </div>
         <p class="sec-desc">Investire nella formazione e nei protocolli di de-escalation significa dotare l'amministrazione di strumenti concreti contro le perdite di bilancio e le crisi di consenso.</p>
@@ -770,7 +770,7 @@
             <div class="stat-desc">Tasso di risoluzione conflitti nelle prime fasi di applicazione del protocollo</div>
         </div>
         <div class="stat-item">
-            <div class="stat-val">120â€³</div>
+            <div class="stat-val">120″</div>
             <div class="stat-lbl">Tempo Critico</div>
             <div class="stat-desc">Finestra temporale in cui il protocollo interviene sull'escalation emotiva</div>
         </div>
@@ -817,7 +817,7 @@
     </div>
 </section>
 
-<!-- FAQ â€” long-tail informative + rich snippet -->
+<!-- FAQ — long-tail informative + rich snippet -->
 <style>
     /* Stile sezione FAQ coerente col tema crema/crimson */
     #faq .faq-list{max-width:860px;margin:0 auto;}
@@ -834,7 +834,7 @@
         content:'+';position:absolute;right:6px;top:50%;transform:translateY(-50%);
         font-family:var(--fm);font-size:1.5rem;color:var(--crimson);transition:transform 0.3s;
     }
-    #faq .faq-item[open] summary::after{content:'â€“';}
+    #faq .faq-item[open] summary::after{content:'–';}
     #faq .faq-item .faq-answer{
         padding:0 44px 26px 0;color:var(--text-muted);
         font-family:var(--fb);font-size:1.02rem;line-height:1.75;
@@ -843,10 +843,10 @@
 <section id="faq">
     <div class="sec-top reveal">
         <div>
-            <div class="sec-num">Â§ 07</div>
+            <div class="sec-num">§ 07</div>
             <h2 class="sec-title">Domande<br><em>Frequenti</em></h2>
         </div>
-        <p class="sec-desc">Le risposte rapide su formazione, de-escalation e comunicazione di crisi per Comuni ed Enti Pubblici â€” anche in Sardegna.</p>
+        <p class="sec-desc">Le risposte rapide su formazione, de-escalation e comunicazione di crisi per Comuni ed Enti Pubblici — anche in Sardegna.</p>
     </div>
     <div class="faq-list reveal">
         <details class="faq-item">
@@ -884,7 +884,7 @@
 <section id="richiesta" class="contact-section">
     <div class="sec-top reveal">
         <div>
-            <div class="sec-num">Â§ 08</div>
+            <div class="sec-num">§ 08</div>
             <h2 class="sec-title">Richiedi una<br><em style="color:var(--gold-light)">Presentazione Dedicata</em></h2>
         </div>
         <p class="sec-desc">Riservato a Sindaci, Assessori, Segretari Comunali e Dirigenti P.A. Compila il modulo per ricevere l'estratto esecutivo del Metodo Meneesco.</p>
@@ -927,7 +927,7 @@
                 <textarea id="messaggio" class="finput" rows="4" placeholder="Descrivi brevemente le tensioni territoriali o necessità formative del vostro ente."></textarea>
             </div>
             <div class="fg-full">
-                <button type="submit" class="btn-sub">Invia Richiesta Istituzionale â†’</button>
+                <button type="submit" class="btn-sub">Invia Richiesta Istituzionale →</button>
             </div>
         </form>
     </div>
@@ -936,7 +936,7 @@
 <!-- SUCCESS -->
 <div class="success-overlay" id="success-dialog">
     <div class="success-card">
-        <div class="scheck">âœ“</div>
+        <div class="scheck">✓</div>
         <h3 class="stitle">Richiesta Ricevuta</h3>
         <p class="smsg" id="smsg"></p>
         <button class="btn-p" onclick="closeSuccess()" style="width:100%">Chiudi</button>
@@ -956,7 +956,7 @@
         <a href="privacy.html">Privacy</a>
         <a href="cookie.html">Cookie</a>
     </div>
-    <div class="f-copy">Â© 2026 MENEESCO â€” Meta Negoziazione Esperienziale Strategico Costruttivista.<br>Formazione e consulenza sulla gestione dei conflitti per la Pubblica Amministrazione Italiana, dirigenti pubblici e Comuni della Sardegna.</div>
+    <div class="f-copy">© 2026 MENEESCO — Meta Negoziazione Esperienziale Strategico Costruttivista.<br>Formazione e consulenza sulla gestione dei conflitti per la Pubblica Amministrazione Italiana, dirigenti pubblici e Comuni della Sardegna.</div>
 </footer>
 
 <button id="btt" aria-label="Torna su" onclick="window.scrollTo({top:0,behavior:'smooth'})">
@@ -968,13 +968,13 @@ const scenari = {
     1:{
         mistake:{
             title:"Errore: Autocompiacimento & Arroganza Normativa",
-            quote:"Â«Il cantiere rispetta tutte le normative vigenti del Codice degli Appalti ed è fondamentale per la modernizzazione della città. I disagi sono temporanei e inevitabili. Preghiamo la cittadinanza di pazientare invece di criticare inutilmente sui canali social.»",
+            quote:"«Il cantiere rispetta tutte le normative vigenti del Codice degli Appalti ed è fondamentale per la modernizzazione della città. I disagi sono temporanei e inevitabili. Preghiamo la cittadinanza di pazientare invece di criticare inutilmente sui canali social.»",
             feedback:"L'ente risponde rifugiandosi nel formalismo burocratico e censurando la critica. L'amministrazione viene percepita come distante e dittatoriale, innescando una reazione a catena di rabbia (effetto boomerang).",
             metric:"Rischio Reputazionale: ALTO"
         },
         protocol:{
             title:"Metodo Meneesco: Validazione Emotiva & Trasparenza",
-            quote:"Â«Comprendiamo pienamente la frustrazione e i disagi causati dai lavori nel quartiere. Abbiamo riprogrammato le lavorazioni più impattanti e istituito percorsi pedonali sicuri. Qui trovate il cronoprogramma settimanale dettagliato. Grazie della pazienza.»",
+            quote:"«Comprendiamo pienamente la frustrazione e i disagi causati dai lavori nel quartiere. Abbiamo riprogrammato le lavorazioni più impattanti e istituito percorsi pedonali sicuri. Qui trovate il cronoprogramma settimanale dettagliato. Grazie della pazienza.»",
             feedback:"Il protocollo prevede come prima fase la <strong>validazione dell'emozione</strong> dell'interlocutore (disinnescare l'aggressività), seguita da soluzioni operative immediate e condivisione di dati oggettivi. L'amministrazione viene percepita come attenta ed empatica.",
             metric:"Efficacia Risoluzione: 94%"
         }
@@ -982,13 +982,13 @@ const scenari = {
     2:{
         mistake:{
             title:"Errore: Incertezza Operativa & Scarico Responsabilità",
-            quote:"Â«L'allerta meteo arancione emanata dalla Protezione Civile impone cautela. Non siamo ancora certi se le scuole rimarranno aperte domani. Seguiranno aggiornamenti in serata quando avremo maggiori dettagli sui modelli meteorologici.Â»",
+            quote:"«L'allerta meteo arancione emanata dalla Protezione Civile impone cautela. Non siamo ancora certi se le scuole rimarranno aperte domani. Seguiranno aggiornamenti in serata quando avremo maggiori dettagli sui modelli meteorologici.»",
             feedback:"Comunicare senza dare una disposizione certa lascia migliaia di famiglie nell'ansia organizzativa. La reazione sarà un attacco di massa al Sindaco sui social per carenza di decisionismo e incapacità organizzativa.",
             metric:"Rischio Reputazionale: CRITICO"
         },
         protocol:{
             title:"Metodo Meneesco: Decisionismo Sicuro & Protezione Primaria",
-            quote:"Â«A tutela della massima sicurezza degli studenti, il Sindaco ha firmato l'ordinanza di sospensione delle lezioni per la giornata di domani. La situazione meteo è presidiata h24 dalla centrale operativa comunale. Uscite solo se strettamente necessario.»",
+            quote:"«A tutela della massima sicurezza degli studenti, il Sindaco ha firmato l'ordinanza di sospensione delle lezioni per la giornata di domani. La situazione meteo è presidiata h24 dalla centrale operativa comunale. Uscite solo se strettamente necessario.»",
             feedback:"Il protocollo codifica formule linguistiche assertive e di <strong>certezza preventiva</strong>. Priorità alla tutela fisica e all'organizzazione dei cittadini, posizionando l'ente come presidio solido e organizzato della sicurezza comune.",
             metric:"Efficacia Risoluzione: 98%"
         }
@@ -996,13 +996,13 @@ const scenari = {
     3:{
         mistake:{
             title:"Errore: Difesa Reattiva & Minaccia di Querela",
-            quote:"Â«Smentiamo categoricamente le falsità che circolano online riguardo ai presunti favoritismi. Si tratta di calunnie infondate mosse da avversari politici. Procederemo immediatamente a denunciare chiunque condivida tali post.Â»",
+            quote:"«Smentiamo categoricamente le falsità che circolano online riguardo ai presunti favoritismi. Si tratta di calunnie infondate mosse da avversari politici. Procederemo immediatamente a denunciare chiunque condivida tali post.»",
             feedback:"Minacciare denunce fa percepire l'amministrazione come impaurita e intenta a nascondere qualcosa. Le fake news crescono quando l'ente si difende in modo reattivo anzichè informare in modo neutro e documentato.",
             metric:"Rischio Reputazionale: MOLTO ALTO"
         },
         protocol:{
             title:"Metodo Meneesco: Neutralità Strutturata & Evidenza dei Fatti",
-            quote:"Â«Per garantire la massima trasparenza, ricordiamo che le graduatorie sono gestite tramite software certificato basato esclusivamente sui requisiti ISEE e composizione familiare stabiliti dalla legge regionale. I dati anonimizzati sono consultabili in allegato.Â»",
+            quote:"«Per garantire la massima trasparenza, ricordiamo che le graduatorie sono gestite tramite software certificato basato esclusivamente sui requisiti ISEE e composizione familiare stabiliti dalla legge regionale. I dati anonimizzati sono consultabili in allegato.»",
             feedback:"Meneesco neutralizza la fake news <strong>ignorando l'attacco personale</strong> e riposizionando la comunicazione sulla descrizione oggettiva della procedura formale. I detrattori rimangono privi di argomenti emotivi a cui aggrapparsi.",
             metric:"Efficacia Risoluzione: 91%"
         }
@@ -1051,10 +1051,10 @@ async function submitForm(e) {
     const messaggio = document.getElementById('messaggio').value;
     const btn = e.target.querySelector('button[type="submit"]');
     btn.textContent = 'Invio in corso...'; btn.disabled = true;
-    // Invio tramite Web3Forms â€” sostituire la access_key con quella del cliente
+    // Invio tramite Web3Forms — sostituire la access_key con quella del cliente
     const payload = {
         access_key: 'INSERIRE-ACCESS-KEY-WEB3FORMS-CLIENTE',
-        subject: `Nuova richiesta istituzionale â€” ${ente}`,
+        subject: `Nuova richiesta istituzionale — ${ente}`,
         from_name: 'Landing ME.NE.E.S.CO.',
         nome, ruolo, ente, email, abitanti, messaggio
     };
@@ -1068,7 +1068,7 @@ async function submitForm(e) {
         const data = await res.json();
         ok = data.success === true;
     } catch(err) {}
-    btn.textContent = 'Invia Richiesta Istituzionale â†’'; btn.disabled = false;
+    btn.textContent = 'Invia Richiesta Istituzionale →'; btn.disabled = false;
     if (!ok) {
         // Esito negativo: avviso senza chiudere il modulo
         alert('Si è verificato un problema nell\'invio. Riprova o scrivici via e-mail.');
@@ -1110,7 +1110,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 <!-- COOKIE BANNER -->
 <style>
-    /* Banner consenso cookie â€” coerente col tema scuro inchiostro/crimson */
+    /* Banner consenso cookie — coerente col tema scuro inchiostro/crimson */
     .cookie-banner{
         position:fixed;left:18px;right:18px;bottom:18px;z-index:2000;
         max-width:680px;margin:0 auto;background:var(--ink);color:var(--cream);
