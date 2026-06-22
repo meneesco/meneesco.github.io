@@ -128,10 +128,10 @@
             transition:box-shadow 0.3s;
         }
         header.scrolled{box-shadow:0 2px 20px rgba(24,16,10,0.08);}
-        .logo-wrap{display:flex;align-items:center;gap:10px;text-decoration:none;}
-        .logo-img{width:28px;height:28px;object-fit:contain;}
-        .logo-name{font-family:var(--fd);font-size:1.1rem;font-weight:600;letter-spacing:0.08em;color:var(--ink);}
-        .logo-sub{font-family:var(--fm);font-size:0.58rem;color:var(--text-muted);letter-spacing:0.1em;text-transform:uppercase;display:block;margin-top:-3px;}
+        .logo-wrap{display:flex;align-items:center;text-decoration:none;}
+        .logo-img{height:52px;width:auto;object-fit:contain;}
+        .logo-name{display:none;}
+        .logo-sub{display:none;}
         nav{display:flex;align-items:center;gap:26px;}
         nav a{font-family:var(--fb);font-size:0.83rem;color:var(--text-muted);text-decoration:none;transition:var(--ease);position:relative;}
         nav a::after{content:'';position:absolute;bottom:-2px;left:0;width:0;height:1px;background:var(--crimson);transition:width 0.3s;}
@@ -464,7 +464,7 @@
 <!-- HEADER -->
 <header id="site-header">
     <a href="#" class="logo-wrap">
-        <img src="47120255_padded_logo.png" alt="Logo" class="logo-img">
+        <img src="logo.png" alt="ME.NE.E.S.CO." class="logo-img">
         <div>
             <div class="logo-name">ME.NE.E.S.CO.</div>
             <span class="logo-sub">Meta Negoziazione per la P.A.</span>
